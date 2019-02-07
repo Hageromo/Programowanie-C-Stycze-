@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C ++/2/list.c
+stdio.h
+-
+stdlib.h
+-
+
+D:/C ++/2/main.c
+stdio.h
+-
+stdlib.h
+-
+list.c
+D:/C ++/2/list.c
+
